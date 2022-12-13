@@ -1,0 +1,9 @@
+   0 vi /tmp/file.txt
+   1 df -h | head -3 >> /tmp/file.txt 
+   2 export NAME=kira VAR=proizvol
+   3 echo $NAME $VAR >> /tmp/file.txt 
+   4 nano /tmp/file.txt 
+   5 cat /tmp/file.txt 
+   6 unset NAME VAR
+   7 env
+   8 history >> history13.txt
